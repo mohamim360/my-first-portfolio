@@ -2,13 +2,6 @@
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
-.header {
-  background: #fff8f3;
-  background-image: url('../images/header_bg.png'),
-    url('../images/developer.png');
-  background-repeat: no-repeat;
-  background-position: bottom right, left;
-}
 .text-primary {
   color: #fd6e0a;
 }
@@ -21,7 +14,17 @@
   height: 64px;
   background: #fd6e0a;
   border-radius: 5px;
+
 }
+.header {
+  background: #fff8f3;
+  background-image: url('../images/header_bg.png'),
+    url('../images/developer.png');
+  background-repeat: no-repeat;
+  background-position:bottom right,left;
+}
+
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -46,17 +49,18 @@ nav li {
   align-items: center;
   margin: 0 200px;
 }
-.ban1 {
-  font-weight: 600;
-  font-size: 45px;
- 
-}
-.ban2 {
+.banner-title {
   font-weight: 700;
   font-size: 85px;
+  
+ 
+}
+.banner-sub-title{
+  font-weight: 600;
+  font-size: 45px;
   margin-bottom: 20px;
 }
-.ban3 {
+.banner-description{
   font-size: 18px;
   color: #757575;
   margin-bottom: 30px;
@@ -66,6 +70,9 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+section{
+  margin-top: 130px;
+}
 /* about */
 .about {
   background: #fff8f3;
@@ -74,23 +81,22 @@ main {
   text-align: center;
   margin-top: 130px;
 }
-.section {
+.section-title{
   text-align: center;
   font-weight: 700;
   font-size: 35px;
-  margin-top: 130px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
-.description {
+.section-description {
   font-size: 18px;
   color: #757575;
   margin-bottom: 30px;
 }
-.about-info {
+.about-info-container {
   display: flex;
   justify-content: space-around;
 }
-.info .info-title {
+.about .info-title {
   font-size: 20px;
   color: #757575;
 }
@@ -102,7 +108,7 @@ main {
 
 /* what i do styles */
 
-.skill1 {
+.skills-container {
   display: flex;
   gap: 24px;
 }
@@ -119,7 +125,7 @@ main {
   margin-bottom: 20px;
 }
 .skill-des {
-  font-size: 16px;
+  
   color: #757575;
 }
 
@@ -127,6 +133,10 @@ main {
 .resume-content {
   display: flex;
   gap: 24px;
+}
+.resume-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .resume .title {
   color: #474747;
@@ -143,10 +153,7 @@ main {
 .resume .description {
   color: #757575;
 }
-.resume-item {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
+
 .resume-button {
   text-align: center;
   margin-top: 50px;
@@ -157,9 +164,9 @@ main {
   gap: 100px;
   background: #fff8f3;
   padding: 130px 200px;
-  margin-top: 113px;
+  
 }
-.contact .section {
+.contact .section- {
   text-align: left;
 }
 .contact input[type="text"],
