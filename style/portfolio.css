@@ -4,8 +4,8 @@
 }
 .header {
   background: #fff8f3;
-  background-image: url("../images/header_bg.png"),
-    url("../images/developer.png");
+  background-image: url('../images/header_bg.png'),
+    url('../images/developer.png');
   background-repeat: no-repeat;
   background-position: bottom right, left;
 }
@@ -39,9 +39,7 @@ nav li {
   list-style: none;
   margin-left: 50px;
 }
-.text-primary {
-  color: #fd6e0a;
-}
+
 /* banner style */
 .banner {
   display: flex;
@@ -51,7 +49,7 @@ nav li {
 .ban1 {
   font-weight: 600;
   font-size: 45px;
-  margin-bottom: 5px;
+ 
 }
 .ban2 {
   font-weight: 700;
