@@ -71,6 +71,7 @@ main {
 }
 /* about */
 .about {
+  margin-top: 130px;
   background: #fff8f3;
   border-radius: 10px;
   padding: 130px 150px;
